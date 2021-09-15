@@ -1,4 +1,4 @@
-\documentclass[paper=a4, fontsize=11pt]{scrartcl}
+\documentclass[paper=a4, fontsize=12pt]{scrartcl}
 \usepackage[T1]{fontenc}
 \usepackage{fourier}
 
@@ -9,9 +9,17 @@
 \usepackage{url}
 
 
+\usepackage{geometry}
+
+\geometry{a4paper,
+    bottom={0.8in}
+}
+
 %%% Custom sectioning
 \usepackage{sectsty}
-\allsectionsfont{\centering \normalfont\scshape}
+% \allsectionsfont{ \normalfont\scshape}
+\allsectionsfont{ \normalfont\large}
+\usepackage{enumitem}
 
 
 %%% Custom headers/footers (fancyhdr package)
@@ -24,7 +32,7 @@
 \renewcommand{\headrulewidth}{0pt}			% Remove header underlines
 \renewcommand{\footrulewidth}{0pt}				% Remove footer underlines
 \setlength{\headheight}{13.6pt}
-
+\usepackage[colorlinks]{hyperref}
 
 %%% Equation and float numbering
 \numberwithin{equation}{section}		% Equationnumbering: section.eq#
@@ -72,93 +80,53 @@
 
 \clearpage  % Certification ended, now start a new page
 
-\section{ Introduction }
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus:
-\begin{align} 
-	\begin{split}
-	(x+y)^3 	&= (x+y)^2(x+y)\\
-					&=(x^2+2xy+y^2)(x+y)\\
-					&=(x^3+2x^2y+xy^2) + (x^2y+2xy^2+y^3)\\
-					&=x^3+3x^2y+3xy^2+y^3
-	\end{split}					
-\end{align}
-Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies 
+\section{\textbf{Introduction }}
+In March 2021, I was a pointed as an Information Technology(IT) Intern on a twelve(12) months internship program at \href{http://www.thehorizon.co.za/}{The Horizon}. The program was in partnership with Melonz Media and \href{http://www.sita.co.za/page/about}{SITA}. The following report detail the experience I have gained during the first six months of the program.
 
-
-
-\section{ Background }
+\section{\textbf{Background } }
 The Digital Academy’s main focus is to create innovative digital products. While I was working at The Digital Academy, I was working under the IT  support,  systems department. This department is involved in developing and maintaining  internal systems necessary for perfect communication and work. It creates plans to improve the overall efficiency and productivity of the company. Most of this work is software development of applications.
 
- The objective of our department is to ensure fast communications, data processing and market intelligence. Helping the company to improve business processes, achieve cost efficiencies, drive revenue growth and maintain a competitive advantage in the marketplace. Most of the products created at The Digital Academy are for the partners of the company.
+ % The objective of our department is to ensure fast communications, data processing and market intelligence. Helping the company to improve business processes, achieve cost efficiencies, drive revenue growth and maintain a competitive advantage in the marketplace. Most of the products created at The Digital Academy are for the partners of the company.
 
-While working at The Digital Academy my main task was developing web applications to solve real life problems we are faced as a country. My duties included analysing and understanding the given problem statement then doing research to know more about the problem. Once the research part was completed I then went down to planning the best possible way of solving the problem that was presented to me. This included using visual texts and diagrams such as entity relation diagrams to figure out a solution. Critical thinking and good communication amongst me and my team members were very important when coming to this. 
+% While working at The Digital Academy my main task was developing web applications to solve real life problems we are faced as a country. My duties included analysing and understanding the given problem statement then doing research to know more about the problem. Once the research part was completed I then went down to planning the best possible way of solving the problem that was presented to me. This included using visual texts and diagrams such as entity relation diagrams to figure out a solution. Critical thinking and good communication amongst me and my team members were very important when coming to this. 
 
-After planning then came the implementation part of the planned solution. I mostly did this using visual studio code IDE. Testing would then be done by our mentors followed by the deployment of the projects. 
+% After planning then came the implementation part of the planned solution. I mostly did this using visual studio code IDE. Testing would then be done by our mentors followed by the deployment of the projects. 
 
-\section{ Personal role at workplace }
-I used the skills I acquired at The Digital Academy during the one month bootcamp we had in December 2020 to create web application. I was provided with problem statement and used my problem solving skills to come up with a solution, design how the solution will be implemented and implemented the solution. I created the web application using the angular frame for the front end and node js for the backend. The database I used for my projects was Mongo DB 
+\section{\textbf{Personal role at workplace} }
+My responsibility at The Horizon includes, but is not limited to, Analyse user needs, design, test, and develop software to meet those needs. Provide technical support, analyze and resolve IT issues. Create and updates documentation concerning all system changes.
 
-\subsection{ The Student System application}
-The first application I worked on at The Digital Academy was the Student System application. The application had mock data that contained details about undergraduate and graduate students. This application was developed using the angular framework. On its landing page there was a drop-down menu where a user could select between “graduate and undergraduate” category. Once the category is selected, then the system will show pictures, names and grade category of all the students that are of the selected category.
-Any student can be selected from the ones that are shown and once selected more information about that specific student. New student’s information could be added to the system by entering their names, grade category, age, course and insert a picture of the student. 125
+\subsection{Class Enrollment Application}
+During the first month of my intern program at The Horizon, I was introduced to Microsoft Visual C\# in a training with \href{https://mecerintered.co.za/}{Meccer Inter-Ed}. Microsoft Visual C\# is one of the technologies The Horizon uses to solve business problem for their client and within the Company.
 
-\subsection{ The Covid 19 app }
+After the training, I was tasked to develop a Class Enrollment Application. The application was for windows desktop users and developed using the same technology I learned in the training. The application was for enrolling students in a class, enable an administrator to add and remove students from a class, as well update the detail of the students. Developing the application gave me hands-on experience in software development. I have gained technical skills in Microsoft Visual C\# including, but not limited to:
+\begin{itemize}[noitemsep,partopsep=0pt,topsep=0pt,parsep=0pt]
+	\item Creating an entity model for accessing a database and use LNQ to query data
+	\item Integrate unmanaged libraries and dynamic components into Visual C\# application
+	\item Encrypt and decrypt data by using symmetric and asymmetric encryption
+\end{itemize}
+
+\subsection{Photo Sharing Web application}
 The second project I worked on, introduced me to API. API is a software intermediary that allows two applications to talk to each other. I used an API for my covid application which gives information about countries’ current covid 19 statistics. The application starts with a list of all the countries’ names and flags in an alphabetic order. 
 When a flag or name of a certain country is clicked, the application navigates to another page and a detailed information about that country’s covid 19 statistics information shows up. The information that shows up is the country’s current infected cases on the first card, the second card shows the country’s recovery cases, the third card shows death cases the country experienced and the last card highlights the percentage of the population of the country that is infected from the total percentage of the country’s population. Below the cards is a graphical representation of the above mentioned information in a pie chart.
 
-\subsection{ The to-do app }
+\subsection{Phila Health Web Application}
 This application was the first application I did which worked from end to end. I worked on the frontend of the project and the backend which acted as the middleware to connect to the database. For this specific project I build the frontend using angular , the backend using node js and the database I used was Mongo DB. I used express to create and connect to the server and mongoose helped me to connect to the database. 
 The application allowed users to write up their to-do list and one was able to add a task and that task will be added to a list, one was also able to delete a task if it was added by mistake. Once a task was complete by a user, the user could checkout that specific  task. All this data was saved at the database.
 
-\subsection{ LinkUp social media app }
-Creating this social media application came with its own challenges. The application involved securing data during its existence in the frontend to the database. LinkUp was a social media app where users had to sing up to use and for a user to sign up they had to provide their names, email address, date of birth and password in a sign up form that pops up when a user clicks the sign up button. All the information provided by the user was then sent to the database so every time a user wants to log in the information they are entering will be validated against the information in the database the user signed up with to confirm if a user exist.
- Once a user is signed up, then they are able to log in to their own profile which consisted of the user’s user name , user profile picture and post. The user can see other users’ social post and can also post a post of their own. The registered user was also able to edit their profile by changing their profile picture of user name. When logged in a user was able to like and comment on other users’ posts but cannot do this when not logged in. Deleting comments and post was also possible but a comment or post can only be deleted by the user that made it. I was introduced to the  GitLab tool  during this project where I was able to push my current work to save it and also keep track of the progress and contributions of the project. 
-
-\subsection{ Fin-Knowledge application }
-The Fin-Knowledge application was the last application I worked on at The Digital Academy as a final project. It involved solving a problem of financial institution not knowing their customers better and that way not being able to offer their target market the best offers on products or services they offer, which a certain customer would need or want. The application collects financial literacy knowledge information from users in a form of a quiz together with the user’ personal information. The personal information is collected by a bot created called Nolwazi. 
-Nolwazi asks 8 personal questions about a user’s age, gender, annual income bracket, ethnicity, location, marital status, educational level, and employment status. This data is then stored at the database and later used for statical purposes. Once all the personal question are answered the financial literacy quiz begins. The quiz consists of 10 randomized question of different finance category. The categories are accounting, credit and debit, business, investment and insurance. All the questions are saved in the database and called into the frontend by subscribing to the observable. 
-When a user has completed the quiz, a score will be assigned to the user based on the correct answered questions. This score is sent to the backend together with the user’s personal information as an object. Each and every user’s information is assigned to an identification number at the database. Once users have took the quiz, their data is then processed and used to create graphs so that financial institutions can have an insightful of their customer’s. All the graphs can be viewed in the report section which also has an about summary which explains what Fin-Knowledge app is all about, a general overview of the application and a methodology section that explains the methods used to collect data from users. 
-
-
-% Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-% \begin{align}
-% 	A = 
-% 	\begin{bmatrix}
-% 	A_{11} & A_{21} \\
-%   	A_{21} & A_{22}
-% 	\end{bmatrix}
-% \end{align}
-% Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-
-% \subsubsection{Heading on level 3 (subsubsection)}
-% Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-
-% \paragraph{Heading on level 4 (paragraph)}
-% Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
-
-
 % \section{Lists}
 
-% \subsection{Example for list (3*itemize)}
-% \begin{itemize}
-% 	\item First item in a list 
-% 		\begin{itemize}
-% 		\item First item in a list 
-% 			\begin{itemize}
-% 			\item First item in a list 
-% 			\item Second item in a list 
-% 			\end{itemize}
-% 		\item Second item in a list 
-% 		\end{itemize}
-% 	\item Second item in a list 
-% \end{itemize}
-
 % \subsection{Example for list (enumerate)}
-% \begin{enumerate}
+
+% \begin{itemize}
 % 	\item First item in a list 
 % 	\item Second item in a list 
 % 	\item Third item in a list
-% \end{enumerate}
+% \end{itemize}
 
+%   \begin{enumerate}[leftmargin=*,label=$\bullet$,noitemsep,partopsep=0pt,topsep=0pt,parsep=0pt]
+%       \item Prepared ...
+%       \item Analysed ...
+%       \item Researched ...
+%     \end{enumerate}
 %%% End document
 \end{document}

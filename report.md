@@ -1,16 +1,9 @@
 ## Introduction
 
-On march 2021, I was a pointed as an Information Technology(IT) Intern on a
-twelve months internship programme at The Horizon. The programme was in partnership with 
-Melonz Media and SITA. The following report detail the experience I have gain during the
-first six months of the programme.
-
-The Digital Academy is a software company based at 44 Stanley Avenue in Milpark
-, Johannesburg. I am currently in the Information Technology : System support
-learnership program, involved in web application development. I have been part
-of this learnership program since the 1st of December 2020 and marking 6 months
-on the 1st  of May 2021. The learnership is a fixed 6 months program.
-
+In March 2021, I was a pointed as an Information Technology(IT) Intern on a
+twelve(12) months internship program at The Horizon. The program was in
+partnership with Melonz Media and SITA. The following report detail the
+experience I have gained during the first six months of the program.
 
 ## Background
 
@@ -40,24 +33,26 @@ rack installations and maintenance.
 ### Personal Role
 -----------------
 
-My responsibility at The Horizon includes, but not limited to, Analyse user needs and
-design, test, and develop software to meet those needs. Provide technical support, 
-analyse and resolve IT issues. Creation and updating of document with regards to all
-system changes.
+My responsibility at The Horizon includes, but is not limited to, Analyse user
+needs, design, test, and develop software to meet those needs. Provide
+technical support, analyze and resolve IT issues. Create and updates
+documentation concerning all system changes.
 
 ### Class Enrollment Application
 
-During the first month of my intern programme at The Horizon I was introduced to Microsoft 
-Visual C# in a training with Meccer Inter-Ed. Microsoft Visual C# is one of the techonlogy
-The Horizon use to solve business problem for their client and within the Company.
+During the first month of my intern program at The Horizon, I was introduced to
+Microsoft Visual C# in a training with Meccer Inter-Ed. Microsoft Visual C# is
+one of the technologies The Horizon uses to solve a business problem for their
+client and within the Company.
 
-After the training I was tasked to develop a Class Enrollment Application. The application
-was for windows desktop users and developed using the same technology I learned in the
-training. The application was for enrolling student in a class, enable an administrator to add
-and remove student from a class, as well update the detail of the students. Developing the 
-application gave me an hands-on experience in software development. I have gained technical 
+After the training, I was tasked to develop a Class Enrollment Application. The
+application was for windows desktop users and developed using the same
+technology I learned in the training. The application was for enrolling
+students in a class, enable an administrator to add and remove students from a
+class, as well update the detail of the students. Developing the application
+gave me hands-on experience in software development. I have gained technical
 skills in Microsoft Visual C# including, but not limited to:
-- Creating an entity model for accessing database and use LNQ to query data
+- Creating an entity model for accessing a database and use LNQ to query data
 - Integrate unmanaged libraries and dynamic components into Visual C# application
 - Encrypt and decrypt data by using symmetric and asymmetric encryption
 
