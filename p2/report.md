@@ -20,36 +20,30 @@ Africa) and is active on the CDAA's board.
 
 ### Background
 
-Copalcor being an old company, means they still use an old way to complete task.
-This part of the reason the are investing on a software development teams to
-improve the operation of day to day business with a help. Thats where I come in.
+Copalcor is an old company. They still use old methods to complete tasks such
+as logbooks and excel spreadsheets. That is why they are investing in a
+software development team to improve the operation of the day-to-day business
+with the help of software. That's where I come in.
 
 #### The nature of department
 
-The department I work close with was the forging department. The main responsibility
-was forging copper, hence the name. They also manufacure carpentry to packge the 
-finish products to their clients
+The department I work closely with is the forging department. The
+responsibility of the forging department is forging copper, hence the name.
+They also manufacture carpentry for other departments to package finish
+products for their clients.
 
 ### Problem Statement
-As a software developer , I was tasked to reasearch on how can reduce paper work from
-the employee, Another problemm they face is mananging excel spreadsheet. since it has to be 
-edited by more thatn one person and to keep track of the changes it became a chalaage
-
-
-
-#### Department Objective
-
-The forging department is responsible for ordering Alloys, Forging Copper, and
-Capentry solution to package the metal. This department consist of more than 
-50 employee. Most of the operation is being manage on a
-excel spreadsheet. 
+As a software developer, My task is to research how to reduce paperwork from
+the employee and address the issues they face working with spreadsheets. Since
+the spreadsheet has to be edited by more than one person, keeping track of the
+changes became a challenge.
 
 ### My Duties
-My responsibiiy range from IT Desk suppoert to Software development. Working at
-Copalcor I anssited on helping employee that they are connect to the WI-FI, and 
-can recieve emails. Createing intternet cable to connect the computers and 
-maintain cellphone. I was give projece to develop with sofware and present the
-solution to the management.
+My responsibilities range from IT Desk support to Software development. Working
+at Copalcor I assisted in helping employees that they are connected to the
+Wi-Fi and can receive emails. Creating Internet cable to connect the computers
+and maintain cellphones. I was given a project to develop software and present
+the solution to the management.
 
 ### Personal role at workplace
 
@@ -139,5 +133,10 @@ Similar to Metal Purchasing application Cartpenty Shop application is
 hosted on Linode sever running appacher. This decision was so I can manage the two
 applicatin easy.
 
+Relationship with Team members
+
+I am enjoying my time with Copalcor, my team is amazing to work with.. I love
+that we could openly express our minds and feelings about things. I am learning
+a lot from the team.
 
 

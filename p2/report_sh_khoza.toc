@@ -7,6 +7,7 @@
 \contentsline {section}{\numberline {3}\textbf {Personal role at workplace}}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Metal Purchasing Application}{4}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}How I Develop The Application}{4}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Photo Sharing Web application}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Phila Health Web Application}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.2}Carpentry Shop}{5}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}How I Develop The Application}{5}{subsubsection.3.2.1}%
+\contentsline {section}{\numberline {4}\textbf {Relationship with Team members}}{5}{section.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
